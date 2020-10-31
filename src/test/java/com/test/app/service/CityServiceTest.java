@@ -1,8 +1,9 @@
-package com.upgrad.mba.services;
+package com.test.app.service;
 
-import com.upgrad.mba.dao.CityDao;
-import com.upgrad.mba.entities.City;
-import com.upgrad.mba.exceptions.CityDetailsNotFoundException;
+import com.example.spring.dao.CityDao;
+import com.example.spring.entities.City;
+import com.example.spring.exceptions.CityDetailsNotFoundException;
+import com.example.spring.service.CityServiceImpl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

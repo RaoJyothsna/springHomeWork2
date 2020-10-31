@@ -1,8 +1,9 @@
-package com.upgrad.mba.services;
+package com.example.spring.service;
 
-import com.upgrad.mba.dao.StatusDao;
-import com.upgrad.mba.entities.Status;
-import com.upgrad.mba.exceptions.StatusDetailsNotFoundException;
+
+import com.example.spring.dao.StatusDao;
+import com.example.spring.entities.Status;
+import com.example.spring.exceptions.StatusDetailsNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

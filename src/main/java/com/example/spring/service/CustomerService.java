@@ -1,9 +1,10 @@
-package com.upgrad.mba.services;
+package com.example.spring.service;
 
-import com.upgrad.mba.entities.Customer;
-import com.upgrad.mba.exceptions.CustomerDetailsNotFoundException;
-import com.upgrad.mba.exceptions.CustomerUserNameExistsException;
-import com.upgrad.mba.exceptions.UserTypeDetailsNotFoundException;
+
+import com.example.spring.entities.Customer;
+import com.example.spring.exceptions.CustomerDetailsNotFoundException;
+import com.example.spring.exceptions.CustomerUserNameExistsException;
+import com.example.spring.exceptions.UserTypeDetailsNotFoundException;
 
 public interface CustomerService {
     public Customer acceptCustomerDetails(Customer customer) throws CustomerUserNameExistsException, UserTypeDetailsNotFoundException;

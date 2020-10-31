@@ -1,6 +1,7 @@
-package com.upgrad.mba.dao;
+package com.example.spring.dao;
 
-import com.upgrad.mba.entities.Movie;
+
+import com.example.spring.entities.Movie;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.time.LocalDateTime;

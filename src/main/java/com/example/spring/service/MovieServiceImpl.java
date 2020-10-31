@@ -1,8 +1,7 @@
-package com.upgrad.mba.services;
-
-import com.upgrad.mba.dao.MovieDao;
-import com.upgrad.mba.entities.Movie;
-import com.upgrad.mba.exceptions.MovieDetailsNotFoundException;
+package com.example.spring.service;
+import com.example.spring.dao.MovieDao;
+import com.example.spring.entities.Movie;
+import com.example.spring.exceptions.MovieDetailsNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

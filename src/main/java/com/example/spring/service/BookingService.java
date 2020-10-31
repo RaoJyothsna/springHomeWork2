@@ -1,9 +1,11 @@
-package com.upgrad.mba.services;
+package com.example.spring.service;
 
-import com.upgrad.mba.entities.Booking;
-import com.upgrad.mba.exceptions.BookingDetailsNotFoundException;
-import com.upgrad.mba.exceptions.CustomerDetailsNotFoundException;
-import com.upgrad.mba.exceptions.MovieTheatreDetailsNotFoundException;
+
+
+import com.example.spring.entities.Booking;
+import com.example.spring.exceptions.BookingDetailsNotFoundException;
+import com.example.spring.exceptions.CustomerDetailsNotFoundException;
+import com.example.spring.exceptions.MovieTheatreDetailsNotFoundException;
 
 import java.util.List;
 

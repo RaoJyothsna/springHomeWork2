@@ -1,8 +1,9 @@
-package com.upgrad.mba.services;
+package com.example.spring.service;
 
-import com.upgrad.mba.dao.TheatreDao;
-import com.upgrad.mba.entities.Theatre;
-import com.upgrad.mba.exceptions.TheatreDetailsNotFoundException;
+
+import com.example.spring.dao.TheatreDao;
+import com.example.spring.entities.Theatre;
+import com.example.spring.exceptions.TheatreDetailsNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

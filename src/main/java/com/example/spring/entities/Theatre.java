@@ -1,4 +1,4 @@
-package com.upgrad.mba.entities;
+package com.example.spring.entities;
 
 import javax.persistence.*;
 

@@ -1,7 +1,7 @@
-package com.upgrad.mba.services;
+package com.example.spring.service;
 
-import com.upgrad.mba.entities.Language;
-import com.upgrad.mba.exceptions.LanguageDetailsNotFoundException;
+import com.example.spring.entities.Language;
+import com.example.spring.exceptions.LanguageDetailsNotFoundException;
 
 import java.util.List;
 

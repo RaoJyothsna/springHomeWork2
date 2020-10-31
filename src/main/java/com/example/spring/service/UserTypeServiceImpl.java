@@ -1,8 +1,8 @@
-package com.upgrad.mba.services;
+package com.example.spring.service;
 
-import com.upgrad.mba.dao.UserTypeDao;
-import com.upgrad.mba.entities.UserType;
-import com.upgrad.mba.exceptions.UserTypeDetailsNotFoundException;
+import com.example.spring.dao.UserTypeDao;
+import com.example.spring.entities.UserType;
+import com.example.spring.exceptions.UserTypeDetailsNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

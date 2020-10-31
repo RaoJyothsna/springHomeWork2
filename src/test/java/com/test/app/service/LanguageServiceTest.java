@@ -1,8 +1,10 @@
-package com.upgrad.mba.services;
+package com.test.app.service;
 
-import com.upgrad.mba.dao.LanguageDao;
-import com.upgrad.mba.entities.Language;
-import com.upgrad.mba.exceptions.LanguageDetailsNotFoundException;
+
+import com.example.spring.dao.LanguageDao;
+import com.example.spring.entities.Language;
+import com.example.spring.exceptions.LanguageDetailsNotFoundException;
+import com.example.spring.service.LanguageServiceImpl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

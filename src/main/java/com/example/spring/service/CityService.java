@@ -1,7 +1,9 @@
-package com.upgrad.mba.services;
+package com.example.spring.service;
 
-import com.upgrad.mba.entities.City;
-import com.upgrad.mba.exceptions.CityDetailsNotFoundException;
+
+
+import com.example.spring.entities.City;
+import com.example.spring.exceptions.CityDetailsNotFoundException;
 
 import java.util.List;
 

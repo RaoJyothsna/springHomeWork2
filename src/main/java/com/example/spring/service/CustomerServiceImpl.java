@@ -1,10 +1,11 @@
-package com.upgrad.mba.services;
+package com.example.spring.service;
 
-import com.upgrad.mba.dao.CustomerDao;
-import com.upgrad.mba.entities.Customer;
-import com.upgrad.mba.exceptions.CustomerDetailsNotFoundException;
-import com.upgrad.mba.exceptions.CustomerUserNameExistsException;
-import com.upgrad.mba.exceptions.UserTypeDetailsNotFoundException;
+
+import com.example.spring.dao.CustomerDao;
+import com.example.spring.entities.Customer;
+import com.example.spring.exceptions.CustomerDetailsNotFoundException;
+import com.example.spring.exceptions.CustomerUserNameExistsException;
+import com.example.spring.exceptions.UserTypeDetailsNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

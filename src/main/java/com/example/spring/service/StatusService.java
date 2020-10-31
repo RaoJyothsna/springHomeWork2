@@ -1,7 +1,9 @@
-package com.upgrad.mba.services;
+package com.example.spring.service;
 
-import com.upgrad.mba.entities.Status;
-import com.upgrad.mba.exceptions.StatusDetailsNotFoundException;
+
+
+import com.example.spring.entities.Status;
+import com.example.spring.exceptions.StatusDetailsNotFoundException;
 
 import java.util.List;
 

@@ -1,7 +1,9 @@
-package com.upgrad.mba.services;
+package com.example.spring.service;
 
-import com.upgrad.mba.entities.UserType;
-import com.upgrad.mba.exceptions.UserTypeDetailsNotFoundException;
+
+
+import com.example.spring.entities.UserType;
+import com.example.spring.exceptions.UserTypeDetailsNotFoundException;
 
 import java.util.List;
 

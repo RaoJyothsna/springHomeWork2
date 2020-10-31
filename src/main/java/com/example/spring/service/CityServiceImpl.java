@@ -1,8 +1,9 @@
-package com.upgrad.mba.services;
+package com.example.spring.service;
 
-import com.upgrad.mba.dao.CityDao;
-import com.upgrad.mba.entities.City;
-import com.upgrad.mba.exceptions.CityDetailsNotFoundException;
+
+import com.example.spring.dao.CityDao;
+import com.example.spring.entities.City;
+import com.example.spring.exceptions.CityDetailsNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

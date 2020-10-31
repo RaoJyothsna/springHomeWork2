@@ -1,6 +1,7 @@
-package com.upgrad.mba.dao;
+package com.example.spring.dao;
 
-import com.upgrad.mba.entities.Customer;
+
+import com.example.spring.entities.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

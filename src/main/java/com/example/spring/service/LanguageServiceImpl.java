@@ -1,8 +1,9 @@
-package com.upgrad.mba.services;
+package com.example.spring.service;
 
-import com.upgrad.mba.dao.LanguageDao;
-import com.upgrad.mba.entities.Language;
-import com.upgrad.mba.exceptions.LanguageDetailsNotFoundException;
+
+import com.example.spring.dao.LanguageDao;
+import com.example.spring.entities.Language;
+import com.example.spring.exceptions.LanguageDetailsNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

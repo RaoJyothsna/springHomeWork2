@@ -1,7 +1,10 @@
-package com.upgrad.mba.services;
+package com.example.spring.service;
 
-import com.upgrad.mba.entities.MovieTheatre;
-import com.upgrad.mba.exceptions.*;
+
+import com.example.spring.entities.MovieTheatre;
+import com.example.spring.exceptions.MovieDetailsNotFoundException;
+import com.example.spring.exceptions.MovieTheatreDetailsNotFoundException;
+import com.example.spring.exceptions.TheatreDetailsNotFoundException;
 
 import java.util.List;
 

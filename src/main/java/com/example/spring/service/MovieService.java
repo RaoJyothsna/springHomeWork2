@@ -1,7 +1,8 @@
-package com.upgrad.mba.services;
+package com.example.spring.service;
 
-import com.upgrad.mba.entities.Movie;
-import com.upgrad.mba.exceptions.MovieDetailsNotFoundException;
+
+import com.example.spring.entities.Movie;
+import com.example.spring.exceptions.MovieDetailsNotFoundException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

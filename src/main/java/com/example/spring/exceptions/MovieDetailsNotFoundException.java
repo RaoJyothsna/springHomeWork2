@@ -1,4 +1,4 @@
-package com.upgrad.mba.exceptions;
+package com.example.spring.exceptions;
 
 public class MovieDetailsNotFoundException extends Exception {
     public MovieDetailsNotFoundException(String message) {
